@@ -1,0 +1,120 @@
+footer{
+    background-color: #0e0e0e;
+}
+
+#footer-info{
+    font-family: 'Lato', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.website-logo-footer img{
+    width: 80px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+
+#more-on-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+#about-us-title{
+    color: #e67e22;
+    margin-top: 40px;
+}
+
+.about-us-more div{
+    color: white;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+#contact-us-title{
+    color: #e67e22;
+    margin-top: 40px;
+}
+
+#contact-details div span{
+    display: inline-block;
+}
+
+#phone-details{
+    line-height: 40px;
+}
+
+#phone-icon{
+    color: #e67e22;
+}
+
+#phone-num{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+#email{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#email-icon i{
+    color: #e67e22;
+}
+
+#email-id{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+/* members */
+
+#members{
+    width: 30%;
+    /* margin-left: 5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#members-title{
+    color: #e67e22;
+}
+
+#members-list{
+    color: white;
+}
+
+.member-name{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+#helpful-links{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#helpful-links-title{
+    color: #e67e22;
+}
+
+#link-lists div{
+    color: white;
+    margin-bottom: 0.5rem;
+}
