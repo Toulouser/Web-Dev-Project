@@ -7,22 +7,34 @@
         <link rel="stylesheet" type = "text/css" href="./css/howItWorks.css">
         <link rel="stylesheet" href="./css/footer.css">
         <title>Web App</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+            jQuery('.toggle-nav').click(function(e) {
+            jQuery(this).toggleClass('active');
+            jQuery('.menu ul').toggleClass('active');
+    
+            e.preventDefault();
+            });
+        });
+        </script>
     </head>
 
     <body>
         <header>
-            <nav>
-                <div id="nav-bar" class="row">
-                    <div class="website-logo">
-                        <img src="./resources/logo192.png" alt="NSUT logo">
-                    </div>
-
-                    <ul class="nav-main">
-                        <li class="nav-item"><a href="">About Us</a></li>
-                        <li class="nav-item"><a href="">How It Works</a></li>
-                        <li class="nav-item"><a href="">Login</a></li>
-                    </ul>
-                </div>
+            <nav class="menu">
+                <ul class="active">
+                    <li class="current-item"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            
+                <a class="toggle-nav" href="#">&#9776;</a>
+                <form class="search-form">
+                    <input type="text">
+                    <button>Search</button>
+                </form>
             </nav>
 
             <div id="header-main">
