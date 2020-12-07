@@ -2,11 +2,12 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type = "text/css" href="./css/index.css">
         <link rel="stylesheet" type = "text/css" href="./css/aboutUs.css">
         <link rel="stylesheet" type = "text/css" href="./css/howItWorks.css">
         <link rel="stylesheet" href="./css/footer.css">
-        <title>Web App</title>
+        <title>Infotics Bot</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
             jQuery(document).ready(function() {
@@ -23,18 +24,10 @@
     <body>
         <header>
             <nav class="menu">
-                <ul class="active">
-                    <li class="current-item"><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">How It Works</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            
-                <a class="toggle-nav" href="#">&#9776;</a>
-                <form class="search-form">
-                    <input type="text">
-                    <button>Search</button>
-                </form>
+                <div class="active">
+                    <div class="nav-logo"><img src="./resources/logo192.png" alt=""></div>
+                    <div class="nav-heading">Infotics Bot</div> 
+                </div>
             </nav>
 
             <div id="header-main">
@@ -45,13 +38,31 @@
             </div>
         </header>
 
-        <section id="about-us">
-            <h1>About Us</h1>
-        </section>
-
-        <section id="how-it-works">
-            <h1>How It Works</h1>
-        </section>
+        <section class="text-center about">
+            <h1>About US</h1>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >
+                  <span class="fa fa-user-plus"></span>
+                  <h2>Sign up</h2>
+                  <p class="lead">Sign Up to let us take over all your college problems! </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+                  <span class="fa fa-info"></span>
+                  <h2>Google Assistant</h2>
+                  <p class="lead">Once you sign in, your Google Assistant will act as your personal manager, keeping you in touch with lastest developments and can be customized as per your needs </p>
+                </div>
+                <div class="clearfix visible-md-block visible-sm-block"></div>
+                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+                  <span class="fa fa-calendar"></span>
+                  <h2>More cool stuff!</h2>
+                  <p class="lead">We'll keep you upto date with all university events, and you can register for them too!</p>
+                </div>
+                
+              </div>
+              
+            </div>
+          </section>
 
         <footer>
             <div class="website-logo-footer">
@@ -59,13 +70,6 @@
             </div>
             <div id="footer-info">
                 <div id="more-on-us">
-    
-
-                    <div class = "about-us-more">
-                        <h3 id="about-us-title">About Us</h3>
-                        <div>Infotics is designed to make college life easier. Our chatbot will act as your personal manager, handling and updating
-                        any college realted activites.</div> 
-                    </div>
 
                     <div id="contact-us">
                         <h3 id="contact-us-title">Contact Us</h3>
@@ -108,12 +112,15 @@
                     <h3 id="helpful-links-title">Information</h3>
                     <div id="link-lists">
                         <div>About Us</div>
-                        <div>Abcdef</div>
-                        <div>asasd sa</div>
+                        <div>Our Services</div>
+                        <div>What We Do</div>
                     </div>
                 </div>
             </div>
         </footer>
-
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
